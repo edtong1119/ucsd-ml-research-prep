@@ -51,8 +51,9 @@ This repository documents a high-intensity 5-week sprint to master the mathemati
 
 ### Feb 6, 2026: Manual Backprop (Upcoming)
 - **Goal:** Deriving gradients for $y = Xw + b$.
-- **Math:** - $L = \frac{1}{n} \sum (\hat{y} - y)^2$
-  - $\nabla_w L = \frac{2}{n} X^T (Xw + b - y)$
+- **Math:**
+  $$L = \frac{1}{n} \sum (\hat{y} - y)^2$$
+  $$\nabla_w L = \frac{2}{n} X^T (Xw + b - y)$$
 
 ---
 
